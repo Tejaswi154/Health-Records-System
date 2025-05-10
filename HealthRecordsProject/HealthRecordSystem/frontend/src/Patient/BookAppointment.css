@@ -1,0 +1,66 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #FFF8DC; /* Cream Background */
+  color: #2F4F4F; /* Dark Slate Gray Text */
+}
+
+.book-appointment-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #FFD700; /* Gold */
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* Table Styles */
+.appointments-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.appointments-table th {
+  background-color: #FFD700; /* Gold */
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.appointments-table td {
+  background-color: #fafafa;
+  padding: 10px;
+  text-align: center;
+}
+
+.appointments-table tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.appointments-table td img {
+  border-radius: 50%;
+}
+
+.book-button {
+  background-color: #8B4513; /* Saddle Brown */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.book-button:hover {
+  background-color: #B8860B; /* Dark Goldenrod */
+}

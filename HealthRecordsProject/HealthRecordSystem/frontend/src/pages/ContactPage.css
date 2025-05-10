@@ -1,0 +1,133 @@
+/* General Styling */
+.contact-page {
+  font-family: 'Arial', sans-serif;
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+  color: #333;
+  text-align: center;
+}
+
+.contact-intro {
+  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Container Styling */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+/* Contact Information Styling */
+.contact-info {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+  color: #f39c12;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.contact-info strong {
+  color: #f39c12;
+}
+
+/* Contact Form Styling */
+.contact-form {
+  flex: 2;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  color: #f39c12;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  color: #333;
+  font-size: 1rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #fafafa;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f39c12;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #e67e22;
+}
+
+/* Why Contact Us Section */
+.why-contact-us {
+  margin-top: 40px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.why-contact-us h2 {
+  color: #f39c12;
+  margin-bottom: 20px;
+}
+
+.why-contact-us ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.why-contact-us li {
+  margin: 10px 0;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+}

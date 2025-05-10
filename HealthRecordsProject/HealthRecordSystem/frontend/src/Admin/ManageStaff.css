@@ -1,0 +1,144 @@
+/* ManageStaff.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+.search-bar {
+  display: block;
+  width: 60%;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.add-staff-btn {
+  display: block;
+  margin: 0 auto 20px;
+  background-color: #fdd835; /* Yellow */
+  color: #333;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-staff-btn:hover {
+  background-color: #fbc02d;
+}
+
+.add-staff-form {
+  max-width: 500px;
+  margin: 0 auto 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-staff-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.add-staff-form input[type="text"],
+.add-staff-form input[type="date"],
+.add-staff-form input[type="checkbox"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.add-staff-form input[type="checkbox"] {
+  width: auto;
+  margin-left: 5px;
+}
+
+.add-staff-form button {
+  margin-top: 15px;
+  background-color: #fdd835; /* Yellow */
+  color: #333;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-staff-form button:hover {
+  background-color: #fbc02d;
+}
+
+.staff-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.staff-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  width: 280px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+}
+
+.staff-card:hover {
+  transform: translateY(-5px);
+}
+
+.staff-details h3 {
+  margin: 0 0 10px;
+  color: #222;
+}
+
+.staff-details p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.status-btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #333;
+}
+
+.status-btn.active {
+  background-color: #fdd835; /* Yellow for active */
+}
+
+.status-btn.inactive {
+  background-color: #ffe082; /* Light yellow for inactive */
+}
+
+.status-btn:hover {
+  background-color: #fbc02d;
+}

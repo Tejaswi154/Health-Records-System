@@ -1,0 +1,113 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdf6e3; /* Light yellowish background */
+  color: #333;
+}
+
+/* User Profile Container */
+.user-profile-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.profile-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.profile-header .profile-image-large {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #66b3ff; /* Light blue border */
+}
+
+.profile-header .profile-photo-placeholder {
+  width: 100px;
+  height: 100px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: bold;
+  color: #666;
+}
+
+.username-display {
+  font-size: 1.6rem;
+  color: #66b3ff; /* Light blue text */
+  font-weight: bold;
+}
+
+/* User Details Section */
+.user-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.user-details div {
+  padding: 10px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-details div strong {
+  color: #f9e500; /* Yellow color for labels */
+}
+
+.user-details div:nth-child(odd) {
+  background-color: #e1f7ff; /* Light blue background for odd items */
+}
+
+.user-details div:nth-child(even) {
+  background-color: #fdf6e3; /* Light yellow background for even items */
+}
+
+/* Donated Pets Section */
+.donated-pets {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.donated-pets .pets-stats {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #e1f7ff; /* Light blue background */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+}
+
+.donated-pets .pets-stats span {
+  font-weight: bold;
+  color: #66b3ff; /* Light blue text */
+}
+
+/* Loading State */
+.loading-state {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #666;
+}

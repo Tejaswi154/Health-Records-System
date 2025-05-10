@@ -1,0 +1,51 @@
+/* index.css */
+
+/* Reset margins, paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make sure the body and html cover full height */
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff; /* Entire page background pure white */
+  font-family: 'Poppins', sans-serif;
+  color: #333; /* Default text color */
+}
+
+/* Optional: Smoother font rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Anchor tags default style */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Image default max width */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Buttons default */
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Inputs and Textareas default */
+input, textarea {
+  font-family: inherit;
+}
+
+/* List styles remove dots */
+ul, ol {
+  list-style: none;
+}
