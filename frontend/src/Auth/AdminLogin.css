@@ -1,0 +1,161 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fef9e7; /* Soft light yellow */
+}
+
+.admin-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f9e500, #ffeaa7); /* Yellow gradient */
+}
+
+.admin-login-box {
+  background-color: #ffffff; /* White box */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2); /* Blue shadow */
+  width: 100%;
+  max-width: 400px;
+  animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.admin-login-box h2 {
+  font-size: 1.8rem;
+  color: #66b3ff; /* Lighter blue text */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.admin-login-box p {
+  font-size: 1rem;
+  color: #555;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.toggle-btn {
+  color: #66b3ff; /* Lighter blue text */
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.toggle-btn:hover {
+  color: #4da6ff; /* Slightly darker blue */
+}
+
+.status-msg {
+  color: #d32f2f; /* Error red */
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #66b3ff; /* Lighter blue border */
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #66b3ff; /* Lighter blue */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #4da6ff; /* Slightly darker blue */
+  transform: scale(1.05);
+}
+
+.submit-btn:disabled {
+  background-color: #b3d7ff; /* Light blue */
+  cursor: not-allowed;
+}
+
+/* Forgot Password Link */
+.forgot-password-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.forgot-password-link a {
+  color: #66b3ff; /* Lighter blue text */
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.forgot-password-link a:hover {
+  color: #4da6ff; /* Slightly darker blue */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .admin-login-box {
+    padding: 20px;
+  }
+
+  .admin-login-box h2 {
+    font-size: 1.5rem;
+  }
+
+  .form-input {
+    font-size: 0.9rem;
+  }
+
+  .submit-btn {
+    font-size: 0.9rem;
+  }
+}
+
+/* Additional styles */
+.admin-login-form h2 {
+  color: #66b3ff; /* Lighter blue text */
+}
+
+.loginadmin {
+  color: white;
+  background-color: #f9e500; /* Yellow background for contrast */
+}

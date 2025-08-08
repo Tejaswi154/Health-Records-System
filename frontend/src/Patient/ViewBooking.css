@@ -1,0 +1,89 @@
+/* Yellow Theme Variables */
+:root {
+  --yellow: #ffd700;
+  --yellow-dark: #e6c200;
+  --yellow-light: #fff8b0;
+  --yellow-lighter: #fffde7;
+  --yellow-text: #2f2f00;
+  --yellow-border: #e6d700;
+}
+
+/* General Container */
+.allocate-resources-container {
+  padding: 20px;
+  background-color: var(--yellow-lighter);
+  color: var(--yellow-text);
+  font-family: Arial, sans-serif;
+}
+
+/* Headings */
+.allocate-resources-container h2,
+.allocate-resources-container h3 {
+  color: var(--yellow-dark);
+  text-align: center;
+}
+
+/* Input Fields and Select */
+input[type="text"],
+input[type="date"],
+select {
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid var(--yellow-border);
+  border-radius: 4px;
+  background-color: var(--yellow-light);
+  color: var(--yellow-text);
+}
+
+/* Buttons */
+button {
+  background-color: var(--yellow-dark);
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--yellow);
+  color: var(--yellow-text);
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: var(--yellow-lighter);
+}
+
+th, td {
+  border: 1px solid var(--yellow-border);
+  padding: 10px;
+  text-align: left;
+  color: var(--yellow-text);
+}
+
+th {
+  background-color: var(--yellow);
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: var(--yellow-light);
+}
+
+tr:hover {
+  background-color: var(--yellow);
+}
+
+/* Search input */
+input[type="text"]::placeholder {
+  color: var(--yellow-text);
+}
+
+/* Form section spacing */
+form > div {
+  margin-bottom: 10px;
+}

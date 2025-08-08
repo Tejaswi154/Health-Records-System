@@ -1,0 +1,81 @@
+/* Container styling */
+.allocate-resources-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff8e1; /* Light yellow background */
+}
+
+/* Headings */
+h2, h3 {
+  color: #fbc02d; /* Strong yellow */
+  border-bottom: 2px solid #fdd835;
+  padding-bottom: 5px;
+}
+
+/* Input and select fields */
+input[type="text"],
+input[type="date"],
+select {
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #fdd835;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Buttons */
+button {
+  background-color: #fbc02d;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #f9a825;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #fdd835;
+}
+
+th, td {
+  border: 1px solid #f0c419;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Status colors */
+td[style*="color: green"] {
+  color: #388e3c !important;
+  font-weight: bold;
+}
+
+td[style*="color: red"] {
+  color: #d32f2f !important;
+  font-weight: bold;
+}
+
+/* Search input */
+input[type="text"]::placeholder {
+  color: #aaa;
+}
+
+/* No allocations message */
+td[colspan="4"] {
+  color: #888;
+  font-style: italic;
+}
